@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+ 
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+    
+}
+
+.leftcon{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.leftcon fieldset{
+    min-width: 350px;
+    width: 400px;
+    padding: 25px 30px;
+    border: 2px solid #171717;
+    border-radius: 3px;
+    z-index: 2;
+}
+fieldset legend{
+    font-size: 21px;
+}
+fieldset label{
+    font-size: 19px;
+    text-transform:capitalize;
+    display: block;
+    margin: 7px 0;
+     
+}
+fieldset input{
+    font-size: 17px;
+    padding: 12px 10px;
+    color: #333333;
+    outline: none;
+    width: 100%;
+    border: 1px solid #575757;
+    border-radius: 12px;
+}
+i
+{
+    font-size: 30px;
+    right: 15px;
+    bottom: 6px;
+    color: #575757;
+}
+fieldset .remember-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0 10px 0 ;
+
+}
+fieldset .remember-box input{
+    width: 15px;
+    margin: 2px 6px 0 0;
+    outline: none;
+    border: 1px solid #000;
+    cursor: pointer;
+
+}
+
+fieldset .remember-box p a{
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+fieldset button{
+    margin: 10px 0;
+    width: 100%;
+    padding: 7px;
+    background: #7777e6;
+    outline: none;
+    border: 1px solid #5e5ed8;
+    border-radius: 4px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(254, 247, 233);
+    cursor: pointer;
+}
+fieldset button:hover{
+    color: rgb(255,255,255);
+    background:hsl(240, 82%, 78%);
+}
+.rightcon{
+    width: 50%;
+    height: 100%;
+}
+
+/* patient admission css  */
+
+
+.rightcon fieldset{
+    min-width: 500px;
+    width: 600px;
+    padding: 25px 30px;
+    border: 2px solid #171717;
+    border-radius: 3px;
+    margin: 50px 0;
+    z-index: 1;
+    position: absolute;
+    background-color: white;
+    left: 20px;
+}
+fieldset label[for="fname"]{
+    font-size: 16px;
+    text-transform:capitalize;
+    display: inline-block;
+    width: 48%;
+    margin: 7px 2px; 
+    color: #333333; 
+}
+fieldset input{
+    padding: 8px 10px;
+    border-radius: 6px;
+    width: 99%;
+}
+fieldset input[name="fname"]{
+    font-size: 17px;
+    padding: 7px 10px;
+    color: #333333;
+    outline: none;
+    width: 49%;
+    border: 1px solid #575757;
+    border-radius: 6px;
+    display: inline;
+}
+.rightcon fieldset textarea{
+    width: 99%;
+    outline: none;
+    border: 1px solid #575757;
+    border-radius: 4px;
+    padding: 7px 12px;
+    font-size: 18px;
+    color: #333333;
+
+}
+fieldset input[type="radio"]{
+    width: fit-content;
+    margin: 10px 5px;
+}
+.rightcon form{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+.rightcon img{
+    width: 650px;
+    height: 97%;
+    object-fit: cover;
+}
+.rightcon form fieldset legend{
+   color: #00021d;
+   font-weight: 600;
+   font-family: Poppins;
+}
+.rightcon button{
+    width: 99%;
+}

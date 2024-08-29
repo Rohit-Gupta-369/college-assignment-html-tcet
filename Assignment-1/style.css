@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body,
+html {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  
+}
+.container{
+    width: 80%;
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.container table, th , td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 4px 10px;
+    text-align: center;
+}
+
+table .green{
+    color:green;
+}
+table .red{
+
+    color:red;
+}
+table img{
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    object-position: top ;
+    mix-blend-mode: hard-light;
+}
+table a{
+    text-decoration: none;
+    color: blue;
+}
+table .btn{
+    border: 1px solid #000;
+    font-size: 24px;
+    padding: 4px 12px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(0, 0, 66);
+    border-radius: 2px;
+    background: #4747ff;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+}

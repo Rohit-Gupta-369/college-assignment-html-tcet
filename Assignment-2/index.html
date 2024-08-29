@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="leftcon">
+        <form action="GET POST">
+          <fieldset>
+            <legend>Sign In</legend>
+            <label for="femail">email</label>
+            <input type="email" name="femail" />
+            <div style="position: relative;">
+                <label class="pass" for="password">Password</label>
+                <input type="password" name="password" />
+                <i class="ri-eye-line" style="position: absolute;"></i>
+            </div>
+            <div class="remember-box">
+                <div>
+                    <input type="checkbox" name="check" />Remember Me
+                </div>
+              <p><a href="#">Forget Password ?</a></p>
+            </div>
+            <button>Submit</button>
+          </fieldset>
+        </form>
+      </div>
+      <div class="rightcon">
+        <form action="GET POST">
+            <img src="https://images.unsplash.com/photo-1638202993928-7267aad84c31?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Doctor">
+                <fieldset>
+                    <legend>Patient Admission</legend>
+                    <label for="fullname">Full Name <sup style="color: red;">*</sup></label>
+                    <input type="text" name="fname" required/>
+                    <input type="text" name="fname" required/>
+                    <label for="fname">First Name</label>
+                    <label for="fname">Last Name</label>
+      
+                    <label for="fage">Age <sup style="color: red;">*</sup></label>
+                    <input type="number" name="fage" required/>
+      
+                    <label for="fbothering">What's Bothering You? <sup style="color: red;">*</sup></label>
+                    <textarea name="fbothering" rows="3" required spellcheck="false"></textarea>
+                    
+                    <label for="fconsult">Have You Consulted Any Doctor?<sup style="color: red;">*</sup></label>
+                    <input type="radio" name="fconsult" required/>Yes
+                    <input type="radio" name="fconsult" required/>No
+      
+                    <label for="freferred" style="font-size: 18px;" >Who referred you to me?</label>
+                    <input type="text" name="freferred" />
+      
+                    
+                    <button>Submit</button>
+                </fieldset>
+            
+            
+          </form>
+      </div>
+    </div>
+  </body>
+</html>
